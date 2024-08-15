@@ -47,7 +47,7 @@ const CongressObjectives = () => {
                    return (<SwiperSlide className="">
                         <div key={index} className="flex justify-center w-full border border-grayColor rounded-lg p-10  ">
                           <div className="flex flex-col justify-center items-center">
-                            <IconComponent className="text-5xl text-center" />
+                           
                             <h3 className="text-2xl font-semibold ">{item.title}</h3>
                             <span className="font-[400] text-[16px] pt-5 text-center">
                               {item.description}
