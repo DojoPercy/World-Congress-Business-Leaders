@@ -4,6 +4,7 @@ import Hero from './_pages/Hero'
 import About from './_pages/About'
 import CongressComponents from './_pages/CongressComponents'
 import CongressObjectives from './_pages/CongressObjectives'
+import Agenda from './_pages/Agenda'
 
 const Page = () => {
   return (
@@ -13,6 +14,7 @@ const Page = () => {
       <About/>
       <CongressComponents/>
       <CongressObjectives/>
+      <Agenda/>
     </main>
   )
 }

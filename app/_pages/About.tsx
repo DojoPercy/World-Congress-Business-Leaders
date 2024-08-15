@@ -3,9 +3,9 @@ import React from "react";
 const About = () => {
   return (
     <div className="px-1 lg:px-20 text-goldTheme py-10">
-        <h1 className="text-3xl font-semibold text-center pb-10 font-montserrat">WORLD BUSINESS LEADERS CONGRESS 2024</h1>
+        <h1 className="text-3xl font-semibold text-center px-4 pb-10 font-montserrat">WORLD BUSINESS LEADERS CONGRESS 2024</h1>
       <div className="flex flex-col space-y-8 text-center items-center justify-center">
-       <span className="font-semibold ">
+       <span className="font-semibold px-5">
        Welcome to the Prestigious Gathering of Business Leaders across
        industries.</span> 
        <span>
@@ -17,7 +17,7 @@ const About = () => {
         the Congress promises to be a hub of knowledge, inspiration, and
         networking opportunities.
        </span>
-       <span className=" w-[18rem] py-2 rounded-lg shadow-sm bg-grayColor"> 
+       <span className=" w-[18rem] py-2 rounded-lg shadow-sm bg-goldTheme text-white"> 
         APPLY NOW
        </span>
       </div>
