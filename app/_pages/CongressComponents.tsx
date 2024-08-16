@@ -9,9 +9,9 @@ const CongressComponents = () => {
           Congress Components
         </h1>
         <div className="lg:grid lg:grid-cols-3">
-          <div className="flex flex-col py-5 mx-5 px-2 bg-white my-5 ">
+          <div className="flex flex-col py-5 mx-3 px-2 rounded-md bg-white my-5 shadow-md justify-start">
             <div>
-              <h2 className="text-lg text-black font-bold pb-3 flex items-center"> <RiGlobalLine className="text-2xl pr-1 "/>Conference </h2>
+              <h2 className="text-lg justify-center  text-black font-bold pb-3 flex items-center"> <RiGlobalLine className="text-2xl pr-1 "/>Conference </h2>
               <div>
                 <div className="title pl-5 flex text-sm ">
                   <h3 className="text-goldTheme ">Theme:</h3>
@@ -26,7 +26,7 @@ const CongressComponents = () => {
                       <h3 className="flex font-semibold ">
                         Keynote <span className="pl-1">Speakers:</span>
                       </h3>
-                      <div className=" text-black  pl-1 ">
+                      <div className=" text-gray-500  pl-1 ">
                         Renowned global business leaders, industry experts, and
                         thought leaders.
                       </div>
@@ -37,7 +37,7 @@ const CongressComponents = () => {
                       <h3 className="flex  font-semibold">
                         Panel <span className="pl-1">Discussions:</span>
                       </h3>
-                      <div className=" text-black  pl-1 ">
+                      <div className=" text-gray-500   pl-1 ">
                         Covering topics such as digital transformation,
                         sustainable business practices, leadership in the 21st
                         century, and the future of work.
@@ -47,7 +47,7 @@ const CongressComponents = () => {
                   <li className="py-3">
                     <div className="flex ">
                       <h3 className="flex font-semibold  ">Workshop: </h3>
-                      <div className=" text-black  pl-1 ">
+                      <div className=" text-gray-500  pl-1 ">
                         Interactive sessions focusing on practical solutions and
                         strategies for business growth and innovation.
                       </div>
@@ -57,9 +57,9 @@ const CongressComponents = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col py-10 mx-5 px-2 bg-white my-5">
+          <div className="flex flex-col py-10 mx-3 px-2 bg-white rounded-md my-5 shadow-md justify-start">
             <div>
-              <h2 className="text-lg text-black font-bold pb-3 flex items-center"> <RiGlobalLine className="text-2xl pr-1 "/>Boardroom Masterclass:</h2>
+              <h2 className="text-lg text-black font-bold pb-3 flex justify-center items-center"> <RiGlobalLine className="text-2xl pr-1 "/>Boardroom Masterclass:</h2>
               <div>
                 
                 <ul className="pl-5 flex-col flex text-sm ">
@@ -70,7 +70,7 @@ const CongressComponents = () => {
                         Expert <span className="pl-1">Led </span>
                         <span className="pl-1">Sessions:</span>
                       </h3>
-                      <div className=" text-black  pl-1 text-sm ">
+                      <div className=" text-gray-500  pl-1 text-sm ">
                       In-depth masterclasses led by industry pioneers and experts for board members and board chairs.
                       </div>
                     </div>
@@ -80,9 +80,9 @@ const CongressComponents = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col py-5  px-2 bg-white my-5 mx-5">
+          <div className="flex flex-col py-5  px-2 bg-white rounded-md my-5 mx-0 shadow-md justify-start">
             <div>
-              <h2 className="text-lg text-black font-bold pb-3  flex items-center"> <RiAwardLine className="text-2xl pr-1 "/>Awards Ceremony</h2>
+              <h2 className="text-lg text-black font-bold pb-3  flex items-center justify-center"> <RiAwardLine className="text-2xl pr-1 "/>Awards Ceremony</h2>
               <div>
                 
                 <ul className="pl-5 flex-col flex text-sm">
@@ -91,7 +91,7 @@ const CongressComponents = () => {
                       <h3 className="flex text-sm font-semibold">
                       Categories: 
                       </h3>
-                      <div className=" text-black pl-1 text-sm ">
+                      <div className=" text-gray-500 pl-1 text-sm ">
                       Recognizing excellence in leadership, innovation, sustainability, and corporate social responsibility.
                       </div>
                     </div>
@@ -101,7 +101,7 @@ const CongressComponents = () => {
                       <h3 className="flex flex-col font-semibold ">
                       Nominees: 
                       </h3>
-                      <div className=" text-black  pl-1 ">
+                      <div className=" text-gray-500  pl-1 ">
                         <ul className="pl-5 list-disc">
                             <li>Top-performing companies</li>
                             <li>Outstanding leaders</li>
@@ -114,8 +114,8 @@ const CongressComponents = () => {
                   <li className="py-3">
                     <div className="flex ">
                       <h3 className="flex font-semibold ">Gala <span className="pl-1"> Dinner:</span> </h3>
-                      <div className=" text-black  pl-1 ">
-                      A glamorous evening celebrating the achievements of award recipients, featuring live entertainment and networking opportunities.n.
+                      <div className=" text-gray-500  pl-1 ">
+                      A glamorous evening celebrating the achievements of award recipients, featuring live entertainment and networking opportunities.
                       </div>
                     </div>
                   </li>
