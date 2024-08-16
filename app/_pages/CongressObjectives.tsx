@@ -46,8 +46,8 @@ const CongressObjectives = () => {
           {info.map((item, index) => {
             const IconComponent = item.icon;
             return (
-              <SwiperSlide key={index} className="">
-                <div className="flex justify-center w-full border border-grayColor rounded-lg p-10">
+              <SwiperSlide key={index} className="lg:px-4 max-h-[25rem]">
+                <div className="flex justify-center w-full  border border-grayColor rounded-lg p-10">
                   <div className="flex flex-col justify-center items-center">
                     <IconComponent className="text-[7rem] mb-4" />
                     <h3 className="text-2xl font-semibold">{item.title}</h3>
